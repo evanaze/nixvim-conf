@@ -4,8 +4,8 @@
     settings = {
       workspaces = [
         {
-          name = "SecondBrain";
-          path = "~/projects/personal/SecondBrain";
+          name = "Knowledge Base";
+          path = "~/Documents/Knowledge\ Base";
         }
       ];
       templates = {
