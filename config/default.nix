@@ -6,13 +6,13 @@ _: {
     ./auto_cmds.nix
     ./file_types.nix
 
-    ./plugins/themes # Themes
-    ./plugins/cmp # Completion
-    ./plugins/snippets # Snippets
-    ./plugins/editor # Editor plugins and configurations
-    ./plugins/ui # UI plugins
-    ./plugins/lsp # LSP and formatting
-    ./plugins/git # Git
-    ./plugins/utils # Utils
+    ./themes # Themes
+    ./cmp # Completion
+    ./snippets # Snippets
+    ./editor # Editor plugins and configurations
+    ./ui # UI plugins
+    ./lsp # LSP and formatting
+    ./git # Git
+    ./utils # Utils
   ];
 }
