@@ -1,5 +1,7 @@
 {
-  lib, pkgs, ...
+  lib,
+  pkgs,
+  ...
 }: {
   config = {
     extraConfigLuaPre =
@@ -118,7 +120,7 @@
         };
         formatters = {
           black = {
-            command = "${lib.getExe pkgs.black}";
+            command = "${lib.getExe pkgs.black} -l 120";
           };
           isort = {
             command = "${lib.getExe pkgs.isort}";
