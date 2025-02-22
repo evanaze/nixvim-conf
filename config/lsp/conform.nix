@@ -123,7 +123,7 @@
             command = "${lib.getExe pkgs.black} -l 120";
           };
           isort = {
-            command = "${lib.getExe pkgs.isort}";
+            command = "${lib.getExe pkgs.isort} --profile black";
           };
           nixfmt-rfc-style = {
             command = "${lib.getExe pkgs.nixfmt-rfc-style}";
