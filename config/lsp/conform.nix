@@ -40,6 +40,11 @@
         })
       '';
 
+    environment.systemPackages = with pkgs; [
+      black
+      isort
+    ];
+
     plugins.conform-nvim = {
       enable = true;
       settings = {
