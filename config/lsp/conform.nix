@@ -40,7 +40,7 @@
         })
       '';
 
-    environment.systemPackages = with pkgs; [
+    extraPlugins = with pkgs; [
       black
       isort
     ];
