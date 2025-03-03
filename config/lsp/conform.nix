@@ -125,12 +125,9 @@
         };
         formatters = {
           black = {
-            # command = "${lib.getExe pkgs.black} -l 120";
             command = "${lib.getExe pkgs.black}";
-            args = "-l 120";
           };
           isort = {
-            # command = "${lib.getExe pkgs.isort} --profile black";
             command = "${lib.getExe pkgs.isort}";
           };
           nixfmt-rfc-style = {
