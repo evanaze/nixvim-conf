@@ -3,20 +3,20 @@
     bufferline = {
       enable = true;
       settings = {
-        offsets = [
-          {
-            filetype = "neo-tree";
-            text = "Neo-tree";
-            highlight = "Directory";
-            text_align = "left";
-          }
-        ];
         options = {
           diagnostics = "nvim_lsp";
           close_icon = " ";
           buffer_close_icon = "󰱝 ";
           modified_icon = "󰔯 ";
           mode = "buffers";
+          offsets = [
+            {
+              filetype = "neo-tree";
+              text = "Neo-tree";
+              highlight = "Directory";
+              text_align = "left";
+            }
+          ];
         };
       };
     };
