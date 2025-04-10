@@ -87,6 +87,9 @@
           html = [
             "prettier"
           ];
+          sql = [
+            "sqlfluff"
+          ];
           css = {
             __unkeyed-1 = "prettierd";
             __unkeyed-2 = "prettier";
@@ -153,6 +156,9 @@
           };
           shellharden = {
             command = "${lib.getExe pkgs.shellharden}";
+          };
+          sqlfluff = {
+            command = "${lib.getExe pkgs.sqlfluff}";
           };
           bicep = {
             command = "${lib.getExe pkgs.bicep}";
