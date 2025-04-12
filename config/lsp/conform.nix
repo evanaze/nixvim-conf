@@ -89,7 +89,6 @@
           ];
           sql = [
             "sqlfluff"
-            "sqlfmt"
           ];
           css = {
             __unkeyed-1 = "prettierd";
@@ -160,9 +159,6 @@
           };
           sqlfluff = {
             command = "${lib.getExe pkgs.sqlfluff}";
-          };
-          sqlfmt = {
-            command = "${lib.getExe pkgs.sqlfmt}";
           };
           bicep = {
             command = "${lib.getExe pkgs.bicep}";
