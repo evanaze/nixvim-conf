@@ -1,6 +1,6 @@
 _: {
   imports = [
-    ./avante.nix
+    # ./avante.nix
     ./illuminate.nix
     ./indent-blankline.nix
     ./navic.nix
