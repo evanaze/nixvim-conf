@@ -43,6 +43,7 @@
     extraPlugins = with pkgs; [
       black
       isort
+      python312Packages.sqlfmt
     ];
 
     plugins.conform-nvim = {
@@ -160,9 +161,9 @@
           sqlfluff = {
             command = "${lib.getExe pkgs.sqlfluff}";
           };
-          # sqlfmt = {
-          #   command = "${lib.getExe pkgs.sqlfmt}";
-          # };
+          sqlfmt = {
+            command = "${lib.getExe pkgs.python312Packages.sqlfmt}";
+          };
           bicep = {
             command = "${lib.getExe pkgs.bicep}";
           };
