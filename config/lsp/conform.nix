@@ -89,7 +89,6 @@
           ];
           sql = [
             "sqlfluff"
-            "sqlfmt"
           ];
           css = {
             __unkeyed-1 = "prettierd";
