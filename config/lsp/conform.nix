@@ -161,9 +161,9 @@
           sqlfluff = {
             command = "${lib.getExe pkgs.sqlfluff}";
           };
-          sqlfmt = {
-            command = "${lib.getExe pkgs.sqlfmt}";
-          };
+          # sqlfmt = {
+          #   command = "${lib.getExe pkgs.sqlfmt}";
+          # };
           bicep = {
             command = "${lib.getExe pkgs.bicep}";
           };
