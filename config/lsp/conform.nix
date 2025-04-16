@@ -89,7 +89,7 @@
             "prettier"
           ];
           sql = [
-            "sqlfluff"
+            "sqlfmt"
           ];
           css = {
             __unkeyed-1 = "prettierd";
@@ -162,7 +162,7 @@
             command = "${lib.getExe pkgs.sqlfluff}";
           };
           sqlfmt = {
-            command = "${lib.getExe pkgs.python312Packages.sqlfmt}";
+            command = "${lib.getExe pkgs.python312Packages.sqlfmt} -l 100";
           };
           bicep = {
             command = "${lib.getExe pkgs.bicep}";
