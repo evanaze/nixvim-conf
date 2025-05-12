@@ -43,7 +43,6 @@
     extraPlugins = with pkgs; [
       black
       isort
-      python312Packages.sqlfmt
     ];
 
     plugins.conform-nvim = {
@@ -88,9 +87,9 @@
           html = [
             "prettier"
           ];
-          sql = [
-            "sqlfmt"
-          ];
+          # sql = [
+          #   "sqlfmt"
+          # ];
           css = {
             __unkeyed-1 = "prettierd";
             __unkeyed-2 = "prettier";
