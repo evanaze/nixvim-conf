@@ -15,7 +15,7 @@
       indent = {
         withExpanders = true;
         expanderCollapsed = "";
-        expanderExpanded = " ";
+        expanderExpanded = "";
         expanderHighlight = "NeoTreeExpander";
       };
 
