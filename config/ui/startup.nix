@@ -78,9 +78,9 @@
         defaultColor = "";
         oldfilesAmount = 0;
       };
-    };
-    options = {
-      paddings = [1 3];
+      options = {
+        paddings = [1 3];
+      };
     };
   };
 }
