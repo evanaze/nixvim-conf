@@ -143,7 +143,7 @@
             command = "${lib.getExe pkgs.jq}";
           };
           prettierd = {
-            command = "${lib.getExe pkgs.prettierd}";
+            command = "${lib.getExe pkgs.prettierd} --no-bracket-spacing";
           };
           stylua = {
             command = "${lib.getExe pkgs.stylua}";
