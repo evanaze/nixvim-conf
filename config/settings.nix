@@ -9,10 +9,6 @@
         vim.fn.sign_define("diagnosticsigninfo", { text = " ", texthl = "diagnosticinfo", linehl = "", numhl = "" })
       '';
 
-    clipboard = {
-      providers.wl-copy.enable = true;
-    };
-
     opts = {
       number = true;
       relativenumber = true;
