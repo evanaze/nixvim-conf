@@ -2,12 +2,15 @@
   plugins.startup = {
     enable = true;
 
-    colors = {
-      background = "#ffffff";
-      foldedSection = "#ffffff";
-    };
-
-    sections = {
+    settings = {
+      colors = {
+        background = "#ffffff";
+        foldedSection = "#ffffff";
+      };
+      parts = [
+        "header"
+        "body"
+      ];
       header = {
         type = "text";
         oldfilesDirectory = false;
@@ -76,14 +79,8 @@
         oldfilesAmount = 0;
       };
     };
-
     options = {
       paddings = [1 3];
     };
-
-    parts = [
-      "header"
-      "body"
-    ];
   };
 }

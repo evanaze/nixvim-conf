@@ -10,7 +10,7 @@
     grammarPackages = pkgs.vimPlugins.nvim-treesitter.allGrammars;
   };
 
-  plugins.treesitter-textobjects = {
+  plugins.treesitter-textobjects.settings = {
     enable = false;
     select = {
       enable = true;
