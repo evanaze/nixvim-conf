@@ -1,21 +1,46 @@
-{pkgs, ...}: {
+{...}: {
   plugins = {
-    lsp-lines = {enable = true;};
-    lsp-format = {enable = true;};
+    lsp-lines = {
+      enable = true;
+    };
+    lsp-format = {
+      enable = true;
+    };
     lsp = {
       enable = true;
       inlayHints = true;
       servers = {
-        astro = {enable = true;};
-        html = {enable = true;};
-        lua_ls = {enable = true;};
-        nil_ls = {enable = true;};
-        marksman = {enable = true;};
-        pylsp = {enable = true;};
-        gopls = {enable = true;};
-        terraformls = {enable = true;};
-        ts_ls = {enable = true;};
-        jsonls = {enable = true;};
+        astro = {
+          enable = true;
+        };
+        html = {
+          enable = true;
+        };
+        lua_ls = {
+          enable = true;
+        };
+        nil_ls = {
+          enable = true;
+          settings.nix.autoArchive = true;
+        };
+        marksman = {
+          enable = true;
+        };
+        pylsp = {
+          enable = true;
+        };
+        gopls = {
+          enable = true;
+        };
+        terraformls = {
+          enable = true;
+        };
+        ts_ls = {
+          enable = true;
+        };
+        jsonls = {
+          enable = true;
+        };
       };
 
       keymaps = {
